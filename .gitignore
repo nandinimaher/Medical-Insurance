@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Machine Learning
+artifacts/
+*.pkl
+
+# Environment Variables
+.env
+
+# Virtual Environment
+venv/
+
+# VS Code
+.vscode/
