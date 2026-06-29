@@ -73,4 +73,5 @@ jobs:
         with:
           app-name: 'ml-flask-project-nandini'
           slot-name: 'Production'
+          package: .
           
