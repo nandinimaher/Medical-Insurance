@@ -19,8 +19,8 @@ jwt = JWTManager(app)
 
 # MongoDB Connection
 mongo_client = pymongo.MongoClient(config.MONGO_URL)
-print("Mongo URL:", config.MONGO_URL)
-print("Connected Databases:", mongo_client.list_database_names())
+#print("Mongo URL:", config.MONGO_URL)
+#print("Connected Databases:", mongo_client.list_database_names())
 db = mongo_client[config.db_name]
 user_collection = db[config.user_collection_name]
 
