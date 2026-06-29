@@ -32,7 +32,6 @@ def register_page():
 def login_page():
     return render_template("login.html")
 
-@app.route("/forget_password_page")
 def forget_password_page():
     return render_template("forget_password.html")
 

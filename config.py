@@ -2,8 +2,8 @@ import os
 FLASK_HOST = "0.0.0.0"
 FLASK_PORT = 5005
 
-MONGO_URL = "mongodb://localhost:27017"
-db_name = 'test_db'
+MONGO_URL = "mongodb+srv://nandinimaherrajput_db_user:wZMdkTvydVgTe8f6@medicalinsurancecluster.f7og1cp.mongodb.net/?appName=MedicalInsuranceCluster"
+db_name = 'medical_insurance_db'
 user_collection_name = 'collection_user'
 data_collection_name = "collection_data"
 
